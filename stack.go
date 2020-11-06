@@ -24,7 +24,7 @@ type StackNode struct {
 // Main Data Structure ----------------------------------------------------------------------------
 
 // Stack is a LIFO data structure with O(1) insertion time. It holds pointer to the top
-// Node and size
+// node and an int storing size
 type Stack struct {
 	top  *StackNode
 	size int
